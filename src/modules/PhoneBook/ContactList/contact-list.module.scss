@@ -1,1 +1,22 @@
-
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 280px;
+}
+.btn {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  max-width: 120px;
+}
+.btn:hover {
+  border: 0.5px solid red;
+  color: red;
+}
