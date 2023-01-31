@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.block {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+.title {
+  color: red;
+  text-align: center;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
